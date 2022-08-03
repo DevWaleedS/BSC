@@ -1,0 +1,111 @@
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700&display=swap');
+
+/* start variables */
+:root {
+	--main-color: #152d42;
+	--base-color: #fff;
+	--second-color: #fdc101;
+	--third-color: #f06157;
+}
+.dark-mode {
+	background-color: #152d42;
+	color: white;
+}
+.dark-mode .navbar-light .navbar-nav .nav-link {
+	color: var(--base-color) !important;
+	font-size: 18px;
+	font-weight: 500;
+}
+.dark-mode .navbar-light .navbar-nav .nav-link:focus,
+.dark-mode .navbar-light .navbar-nav .nav-link:hover {
+	color: var(--second-color) !important;
+}
+.dark-mode .btn-darkMode,
+.dark-mode .btn-login {
+	/* background-color: #FDC101 !important; */
+	color: var(--base-color) !important;
+}
+.dark-mode .navbar-light .navbar-nav .btn-darkMode:focus,
+.dark-mode .navbar-light .navbar-nav .btn-darkMode:hover {
+	color: var(--base-color) !important;
+	/* background-color: var(--second-color) !important; */
+}
+.dark-mode .navbar-light .navbar-nav .btn-login:focus,
+.dark-mode .navbar-light .navbar-nav .btn-login:hover {
+	color: var(--base-color) !important;
+	/* background-color: var(--second-color); */
+}
+.dark-mode .navbar-light .navbar-nav .btn-login {
+	font-size: 16px;
+	padding: 6px;
+	color: #11122c !important;
+}
+.dark-mode .S-logo {
+	color: #cdcdcd;
+}
+.dark-mode .down-info h2 {
+	font-weight: bold;
+	font-size: 32px;
+	color: var(--base-color);
+	margin-bottom: 25px;
+	position: relative;
+}
+.dark-mode .countdown,
+.dark-mode .cours,
+.dark-mode .join-card,
+.dark-mode .feat {
+	background-color: #cdcdcd;
+}
+/* .dark-mode footer{
+    border-top: 5px solid #FDC101;
+  } */
+.dark-mode .join-card svg {
+	fill: #f06157;
+}
+.dark-mode .btn-1 {
+	background-color: transparent;
+	border: 1px solid var(--third-color);
+	border-radius: 5px;
+	color: var(--third-color);
+	padding: 7px 25px;
+}
+.dark-mode .btn-1:hover {
+	background-color: var(--third-color);
+
+	color: var(--base-color);
+}
+.dark-mode .btn-1 svg {
+	margin-right: 5px;
+	font-size: 12px;
+}
+.dark-mode .btn-1:hover {
+	color: var(--third-color);
+}
+.dark-mode .join-card {
+	padding: 30px 50px;
+	border-radius: 10px;
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+	border-top: 10px solid #f06157;
+}
+
+.dark-mode .offcanvas-end {
+	background-color: #152d42;
+}
+/* .dark-mode .cours h4{
+    color: var(--main-color);
+  
+  } */
+.dark-mode .slick-dots li.slick-active button:before {
+	opacity: 0.75;
+	color: #f06157;
+}
+.dark-mode .slick-dots li button:before {
+	color: #f06157;
+}
+.dark-mode marquee a {
+	color: var(--main-color);
+}
+.dark-mode .marquee {
+	border-left: solid 2px var(--second-color);
+}

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- Start head -->
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BSC | Marketer Sign</title>
+		<!-- bootstrap included -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<!-- font Awesome  library-->
+		<link rel="stylesheet" href="assets/css/all.min.css" />
+		<!-- slick slider -->
+		<link rel="stylesheet" href="assets/css/slick-theme.css" />
+		<link rel="stylesheet" href="assets/css/slick.css" />
+
+		<!-- start css file -->
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<!-- dark mode style -->
+		<link rel="stylesheet" href="assets/css/darkMode.css" />
+		<!-- start responsive -->
+		<link rel="stylesheet" href="assets/css/responsive.css" />
+	</head>
+	<!-- start body -->
+
+	<body>
+		<!-- start navbar  for web-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light pt-3 d-sm-none-x shadow">
+			<div class="container">
+				<a class="navbar-brand text-center" href="index.html">
+					<img src="assets/images/Untitled.png" alt="logo" />
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">صفحة</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">صفحة</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">صفحة</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">صفحة</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">صفحة</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex align-items-center">
+						<li class="nav-item">
+							<button onclick="darkMode()" class="btn nav-link btn-darkMode ms-lg-2 pushme2 with-color">🌙</button>
+						</li>
+						<li class="nav-item">
+							<a class="btn nav-link btn-login" href="signStudents.html">تسجيل الدخول</a>
+						</li>
+						<!-- Language switcher  -->
+						<li class="nav-item item-language">
+							<div class="current-lang">
+								<a href="">
+									<i class="fa-solid fa-globe"></i>
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- start navbar  for mobile-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light pt-3 d-lg-none-x shadow">
+			<div class="container">
+				<a class="navbar-brand text-center" href="index.html">
+					<img src="assets/images/Untitled.png" alt="logo" />
+				</a>
+
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<button onclick="darkMode()" class="btn nav-link btn-darkMode ms-lg-2 pushme2 with-color">🌙</button>
+					</li>
+
+					<!-- Language switcher  -->
+					<li class="nav-item item-language">
+						<div class="current-lang">
+							<a href="">
+								<i class="fa-solid fa-globe"></i>
+							</a>
+						</div>
+					</li>
+				</ul>
+				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+					<span class="navbar-toggler-icon"> <i class="fa-solid fa-bars"></i></span>
+				</button>
+
+				<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+					<div class="offcanvas-header pb-0">
+						<h5 class="offcanvas-title" id="offcanvasExampleLabel">
+							<a class="navbar-brand d-flex flex-row-reverse" href="#">
+								<p class="B-logo logo-text">B</p>
+								<p class="S-logo logo-text">S</p>
+								<p class="C-logo logo-text">C</p>
+							</a>
+						</h5>
+						<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body pt-0">
+						<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">صفحة</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">صفحة</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">صفحة</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">صفحة</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">صفحة</a>
+							</li>
+							<li class="nav-item">
+								<a class="btn nav-link btn-login" href="signAsstudent.html">تسجيل الدخول</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- start sign marketer -->
+		<section class="marketer d-flex">
+			<div class="half half-1">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="sign-box">
+								<div class="s-box text-center">
+									<a href="#">
+										<img src="assets/images/logo.png" alt="" />
+									</a>
+								</div>
+								<p class="text-center mb-3">انضم إلينا في فريق التسويق بالعمولة وكن جزء من مركز الخطوة الأفضل</p>
+								<form>
+									<div class="mb-3 form-check">
+										<input type="checkbox" class="form-check-input" id="exampleCheck1" />
+										<label class="form-check-label" for="exampleCheck1"
+											>قمت بالاطلاع علي
+											<!-- Button trigger modal -->
+											<a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">الاتفاقية</a> وأوافق علي جميع البنود</label
+										>
+										<!-- Modal -->
+										<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+											<div class="modal-dialog">
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="btn-close m-0" data-bs-dismiss="modal" aria-label="Close"></button>
+														<h4 class="modal-title" id="exampleModalLabel">إتفاقيه التسويق بالعمولة</h4>
+													</div>
+													<div class="modal-body">
+														<div class="m-auto">
+															<ul>
+																<ol>
+																	بعد التسجيل يتم منح المسوق كود ترويجي خاص به
+																</ol>
+																<ol>
+																	يضع المسوق الكود الخاص به على اإلعالن الخاص بنا ويقوم بنشره
+																</ol>
+																<ol>
+																	لا يحق للمسوق إيهام العميل بمزايا غير حقيقية عن الدورة
+																</ol>
+																<ol>
+																	لا يحق للمسوق الرد على أي استفسارات من العملاء بل يتم توجيههم لخدمة العملاء الخاصة بنا
+																</ol>
+																<ol>
+																	بعد انتهاء كل دورة نقوم بمراجعة السجالت واحتساب عموالت المسوقين وتحويلها إلى حساباتهم البنكية
+																</ol>
+																<ol>
+																	يحصل المسوق على نسبة ... من قيمة أول دورة لكل طالب يقوم بالتسجيل في الموقع بكود المسوق وتأكيد اشتراكه
+																</ol>
+																<ol>
+																	ال يحصل المسوق على العمولة إذا قام بالتسجيل لنفسه وإذا تم الكشف عن أي تحايل يتم إيقاف العضو بدون أي تعويض
+																</ol>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="mb-3">
+										<label for="input1" class="form-label"> الإسم</label>
+										<input type="text" class="form-control" id="input1" />
+									</div>
+									<div class="mb-3">
+										<label for="input2" class="form-label"> رقم الهاتف</label>
+										<input type="text" class="form-control" id="input2" />
+									</div>
+									<div class="mb-3">
+										<label for="input3" class="form-label">المدينة </label>
+										<input type="text" class="form-control" id="input3" />
+									</div>
+									<div class="mb-3">
+										<label for="input4" class="form-label">إسم البنك </label>
+										<input type="text" class="form-control" id="input4" />
+									</div>
+									<div class="mb-3">
+										<label for="input5" class="form-label"> رقم الحساب البنكي</label>
+										<input type="text" class="form-control" id="input5" />
+									</div>
+									<div class="mb-3">
+										<label for="input6" class="form-label"> رقم الايبان</label>
+										<input type="text" class="form-control" id="input6" />
+									</div>
+									<div class="mb-3">
+										<label for="input6" class="form-label">الإسم كما يظهر على البطاقة</label>
+										<input type="text" class="form-control" id="input6" />
+									</div>
+									<div class="text-center">
+										<button type="submit" class="btn btn-sign-2">تسجيل</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="half half-bg">&nbsp;</div>
+		</section>
+		<!-- start footer -->
+		<footer class="">
+			<div class="container">
+				<div class="row mb-3">
+					<div class="col-lg-3">
+						<div class="foot">
+							<a href="#">
+								<img src="assets/images/Untitled.png" alt="" class="foot-logo" />
+								<h5>مركز الخطوة الأفضل</h5>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4">
+						<div class="foot">
+							<ul class="contact-list">
+								<li><a href="#"> من نحن</a></li>
+								<li><a href="#"> تواصل معنا</a></li>
+								<ul class="scoial-icon">
+									<li>
+										<a href="http://" target="_blank" rel="noopener noreferrer">
+											<img src="assets/images/instagram.png" alt="instagram" />
+										</a>
+									</li>
+									<li>
+										<a href="http://" target="_blank" rel="noopener noreferrer">
+											<img src="assets/images/tiktok.png" alt="tiktok" />
+										</a>
+									</li>
+									<li>
+										<a href="http://" target="_blank" rel="noopener noreferrer">
+											<img src="assets/images/snapchat.png" alt="snapchat" />
+										</a>
+									</li>
+								</ul>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4">
+						<div class="foot">
+							<ul class="contact-list">
+								<li><a href="#">الشروط والاحكام </a></li>
+								<li><a href="#">سياسة الخصوصية </a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4">
+						<div class="foot">
+							<ul class="contact-list">
+								<li><a href="#"> المواقع الصديقة </a></li>
+								<li><a href="#"> الاسئلة المكررة</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="copyright text-center">
+						<p>Copyright © 2022 BSC .جميع الحقوق محفوظه</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- start scripts included -->
+		<!-- bootstrap included -->
+		<script src="assets/js/bootstrap.bundle.js"></script>
+		<!-- jquery included -->
+		<script src="assets/js/jquery.js"></script>
+		<!-- font awsome included -->
+		<script src="assets/js/all.min.js"></script>
+		<!-- MY code included -->
+		<script src="assets/js/code.js"></script>
+		<script src="assets/js/slick.min.js"></script>
+		<script>
+			$('.responsive').slick({
+				dots: true,
+				arrows: false,
+				infinite: true,
+				speed: 300,
+				slidesToShow: 4,
+				slidesToScroll: 4,
+				rtl: true,
+				responsive: [
+					{
+						breakpoint: 1024,
+						settings: {
+							slidesToShow: 3,
+							slidesToScroll: 3,
+							infinite: true,
+							dots: true,
+						},
+					},
+					{
+						breakpoint: 600,
+						settings: {
+							slidesToShow: 2,
+							slidesToScroll: 2,
+						},
+					},
+					{
+						breakpoint: 480,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1,
+						},
+					},
+					// You can unslick at a given breakpoint now by adding:
+					// settings: "unslick"
+					// instead of a settings object
+				],
+			});
+		</script>
+	</body>
+	<!-- end of body -->
+</html>
+<!-- end of code -->

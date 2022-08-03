@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- Start head -->
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BSC | Home</title>
+		<!-- bootstrap included -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<!-- font Awesome  library-->
+		<link rel="stylesheet" href="assets/css/all.min.css" />
+		<!-- video plyr  -->
+		<link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+		<!-- slick slider -->
+		<link rel="stylesheet" href="assets/css/slick-theme.css" />
+		<link rel="stylesheet" href="assets/css/slick.css" />
+		<link rel="stylesheet" href="/assets/default/vendors/swiper/swiper-bundle.min.css" />
+		<!-- start css file -->
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<!-- dark mode style -->
+		<link rel="stylesheet" href="assets/css/darkMode.css" />
+		<!-- start responsive -->
+		<link rel="stylesheet" href="assets/css/responsive.css" />
+	</head>
+	<!-- start body -->
+
+	<body class="position-relative">
+		<!-- start navbar  for web-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light pt-3 d-sm-none-x shadow fixed-top">
+			<div class="container">
+				<a class="navbar-brand text-center" href="#">
+					<img src="assets/images/Untitled.png" alt="" />
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">صفحة</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">صفحة</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">صفحة</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">صفحة</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">صفحة</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex align-items-center">
+						<li class="nav-item">
+							<button onclick="darkMode()" class="btn nav-link btn-darkMode ms-lg-2 pushme2 with-color">🌙</button>
+						</li>
+						<li class="nav-item">
+							<a class="btn nav-link btn-login" href="signStudents.html">تسجيل الدخول</a>
+						</li>
+						<!-- Language switcher  -->
+						<li class="nav-item item-language">
+							<div class="current-lang">
+								<a href="">
+									<i class="fa-solid fa-globe"></i>
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- start navbar  for mobile-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light pt-3 d-lg-none-x shadow fixed-top">
+			<div class="container">
+				<a class="navbar-brand text-center" href="#">
+					<img src="assets/images/Untitled.png" alt="" />
+				</a>
+
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<button onclick="darkMode()" class="btn nav-link btn-darkMode ms-lg-2 pushme2 with-color">🌙</button>
+					</li>
+
+					<!-- Language switcher  -->
+					<li class="nav-item item-language">
+						<div class="current-lang">
+							<a href="">
+								<i class="fa-solid fa-globe"></i>
+							</a>
+						</div>
+					</li>
+				</ul>
+				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+					<span class="navbar-toggler-icon"> <i class="fa-solid fa-bars"></i></span>
+				</button>
+
+				<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+					<div class="offcanvas-header pb-0">
+						<h5 class="offcanvas-title" id="offcanvasExampleLabel">
+							<a class="navbar-brand d-flex flex-row-reverse" href="#">
+								<p class="B-logo logo-text">B</p>
+								<p class="S-logo logo-text">S</p>
+								<p class="C-logo logo-text">C</p>
+							</a>
+						</h5>
+						<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body pt-0">
+						<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">صفحة</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">صفحة</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">صفحة</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">صفحة</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">صفحة</a>
+							</li>
+							<li class="nav-item">
+								<a class="btn nav-link btn-login" href="signAsstudent.html">تسجيل الدخول</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- start main -->
+		<main class="big-border">
+			<!-- start marquee text -->
+			<div class="marq">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="marquee">
+								<div class="marquee__item">
+									<a href="#"> شريط الإعلانات</a>
+									<span class="marquee__seperator"><i class="fa-brands fa-adversal"></i></span>
+									<a href="#"> شريط الإعلانات</a>
+									<span class="marquee__seperator"><i class="fa-brands fa-adversal"></i></span>
+									<a href="#"> شريط الإعلانات</a>
+									<span class="marquee__seperator"><i class="fa-brands fa-adversal"></i></span>
+									<a href="#"> شريط الإعلانات</a>
+									<span class="marquee__seperator"><i class="fa-brands fa-adversal"></i></span>
+									<a href="#"> شريط الإعلانات</a>
+									<span class="marquee__seperator"><i class="fa-brands fa-adversal"></i></span>
+									<a href="#"> شريط الإعلانات</a>
+									<span class="marquee__seperator"><i class="fa-brands fa-adversal"></i></span>
+									<a href="#"> شريط الإعلانات</a>
+									<span class="marquee__seperator"><i class="fa-brands fa-adversal"></i></span>
+								</div>
+								<div class="marquee__item">
+									<a href="#"> شريط الإعلانات</a>
+									<span class="marquee__seperator"><i class="fa-brands fa-adversal"></i></span>
+									<a href="#"> شريط الإعلانات</a>
+									<span class="marquee__seperator"><i class="fa-brands fa-adversal"></i></span>
+									<a href="#"> شريط الإعلانات</a>
+									<span class="marquee__seperator"><i class="fa-brands fa-adversal"></i></span>
+									<a href="#"> شريط الإعلانات</a>
+									<span class="marquee__seperator"><i class="fa-brands fa-adversal"></i></span>
+									<a href="#"> شريط الإعلانات</a>
+									<span class="marquee__seperator"><i class="fa-brands fa-adversal"></i></span>
+									<a href="#"> شريط الإعلانات</a>
+									<span class="marquee__seperator"><i class="fa-brands fa-adversal"></i></span>
+									<a href="#"> شريط الإعلانات</a>
+									<span class="marquee__seperator"><i class="fa-brands fa-adversal"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="hero pb-0">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="d-flex align-items-center">
+								<div class="info-box">
+									<h1>مركز الخطوة الأفضل</h1>
+									<p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+									<ul class="d-lg-flex d-grid-smm mt-3">
+										<li class="mb-lg-0 mb-3">
+											<a href="signupAsstudent.html" class="btn btn-sign"> سجل معنا </a>
+										</li>
+										<li class="me-lg-3 mb-lg-0 mb-3">
+											<!-- Button trigger modal -->
+											<a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-sign"> اختبار تحديد المستوى </a>
+											<!-- Modal -->
+											<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h4 class="modal-title" id="exampleModalLabel">من فضلك حدد نوع الاختبار</h4>
+															<button type="button" class="btn-close m-0" data-bs-dismiss="modal" aria-label="Close"></button>
+														</div>
+														<div class="modal-body">
+															<div class="m-auto">
+																<div class="">
+																	<a href="https://docs.google.com/forms/d/1atyA2leiIlAEv8O98f5mxrZ_guLwHKFB5COE-hSmj9I/edit?ts=62b9c312&amp;gxid=-8203364" class="btn btn-test">اختبار تحديد مستوى للكبار</a>
+
+																	<a
+																		href="https://docs.google.com/forms/d/1TxIRMk7MbchdRegROIfK4fQB5i8l7i5epK2Bh1Y9Akw/viewform?amp;ts=62b9c3b8&amp;urp=gmail_link&amp;gxid=-8203364&edit_requested=true"
+																		class="btn btn-test"
+																		>اختبار تحديد مستوى للصغار</a
+																	>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="img-box">
+								<img src="assets/images/hero.png" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-lg-12">
+							<div class="countdown shadow rounded p-3 text-center">
+								<h2 id="headline">ساعة العد التنازلى لبدء الدورة الجديدة</h2>
+								<div id="countdown">
+									<ul class="d-flex justify-content-center flex-row-reverse">
+										<li><span id="days"></span>أيام</li>
+										<li><span id="hours"></span>ساعات</li>
+										<li><span id="minutes"></span>دقايق</li>
+										<li><span id="seconds"></span>ثواني</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- start courses section -->
+			<section class="courses">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="heading text-center mb-lg-5">
+								<h2>الدورات</h2>
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="responsive">
+								<div class="cours">
+									<div class="cours-header position-relative">
+										<img src="assets/images/cat-1.png" alt="" class="cat-1" />
+										<div class="layer position-absolute"></div>
+										<img src="assets/images/label.png" alt="" class="label position-absolute" />
+									</div>
+									<div class="cours-foot p-3">
+										<a href="#">
+											<h4>الدورات الفردية <i class="far fa-star float-start"></i></h4>
+										</a>
+										<p class="my-2">هناك حقيقة مثبتة منذ زمن طويل</p>
+										<ul class="d-flex justify-content-between">
+											<li><a href="#" class="btn btn-1"> أحجز الان</a></li>
+											<li><span class="price">980 sar</span></li>
+										</ul>
+									</div>
+								</div>
+								<div class="cours">
+									<div class="cours-header position-relative">
+										<img src="assets/images/cat-1.png" alt="" class="cat-1" />
+										<div class="layer position-absolute"></div>
+										<img src="assets/images/label.png" alt="" class="label position-absolute" />
+									</div>
+									<div class="cours-foot p-3">
+										<a href="#">
+											<h4>
+												دورات اللغة الإنجليزية للأطفال
+												<i class="far fa-star float-start"></i>
+											</h4>
+										</a>
+										<p class="my-2">هناك حقيقة مثبتة منذ زمن طويل</p>
+										<ul class="d-flex justify-content-between">
+											<li><a href="#" class="btn btn-1"> أحجز الان</a></li>
+											<li><span class="price">980 sar</span></li>
+										</ul>
+									</div>
+								</div>
+								<div class="cours">
+									<div class="cours-header position-relative">
+										<img src="assets/images/cat-1.png" alt="" class="cat-1" />
+										<div class="layer position-absolute"></div>
+										<img src="assets/images/label.png" alt="" class="label position-absolute" />
+									</div>
+									<div class="cours-foot p-3">
+										<a href="#">
+											<h4>
+												دورات اللغة الإنجليزية للكبار
+												<i class="far fa-star float-start"></i>
+											</h4>
+										</a>
+										<p class="my-2">هناك حقيقة مثبتة منذ زمن طويل</p>
+										<ul class="d-flex justify-content-between">
+											<li><a href="#" class="btn btn-1"> أحجز الان</a></li>
+											<li><span class="price">980 sar</span></li>
+										</ul>
+									</div>
+								</div>
+								<div class="cours">
+									<div class="cours-header position-relative">
+										<img src="assets/images/cat-1.png" alt="" class="cat-1" />
+										<div class="layer position-absolute"></div>
+										<img src="assets/images/label.png" alt="" class="label position-absolute" />
+									</div>
+									<div class="cours-foot p-3">
+										<a href="#">
+											<h4>دورات المناهج الدراسية<i class="far fa-star float-start"></i></h4>
+										</a>
+										<p class="my-2">هناك حقيقة مثبتة منذ زمن طويل</p>
+										<ul class="d-flex justify-content-between">
+											<li><a href="#" class="btn btn-1"> أحجز الان</a></li>
+											<li><span class="price">980 sar</span></li>
+										</ul>
+									</div>
+								</div>
+								<div class="cours">
+									<div class="cours-header position-relative">
+										<img src="assets/images/cat-1.png" alt="" class="cat-1" />
+										<div class="layer position-absolute"></div>
+										<img src="assets/images/label.png" alt="" class="label position-absolute" />
+									</div>
+									<div class="cours-foot p-3">
+										<a href="#">
+											<h4>الدورات الفردية <i class="far fa-star float-start"></i></h4>
+										</a>
+										<p class="my-2">هناك حقيقة مثبتة منذ زمن طويل</p>
+										<ul class="d-flex justify-content-between">
+											<li><a href="#" class="btn btn-1"> أحجز الان</a></li>
+											<li><span class="price">980 sar</span></li>
+										</ul>
+									</div>
+								</div>
+								<div class="cours">
+									<div class="cours-header position-relative">
+										<img src="assets/images/cat-1.png" alt="" class="cat-1" />
+										<div class="layer position-absolute"></div>
+										<img src="assets/images/label.png" alt="" class="label position-absolute" />
+									</div>
+									<div class="cours-foot p-3">
+										<a href="#">
+											<h4>
+												دورات اللغة الإنجليزية للأطفال
+												<i class="far fa-star float-start"></i>
+											</h4>
+										</a>
+										<p class="my-2">هناك حقيقة مثبتة منذ زمن طويل</p>
+										<ul class="d-flex justify-content-between">
+											<li><a href="#" class="btn btn-1"> أحجز الان</a></li>
+											<li><span class="price">980 sar</span></li>
+										</ul>
+									</div>
+								</div>
+								<div class="cours">
+									<div class="cours-header position-relative">
+										<img src="assets/images/cat-1.png" alt="" class="cat-1" />
+										<div class="layer position-absolute"></div>
+										<img src="assets/images/label.png" alt="" class="label position-absolute" />
+									</div>
+									<div class="cours-foot p-3">
+										<a href="#">
+											<h4>
+												دورات اللغة الإنجليزية للكبار
+												<i class="far fa-star float-start"></i>
+											</h4>
+										</a>
+										<p class="my-2">هناك حقيقة مثبتة منذ زمن طويل</p>
+										<ul class="d-flex justify-content-between">
+											<li><a href="#" class="btn btn-1"> أحجز الان</a></li>
+											<li><span class="price">980 sar</span></li>
+										</ul>
+									</div>
+								</div>
+								<div class="cours">
+									<div class="cours-header position-relative">
+										<img src="assets/images/cat-1.png" alt="" class="cat-1" />
+										<div class="layer position-absolute"></div>
+										<img src="assets/images/label.png" alt="" class="label position-absolute" />
+									</div>
+									<div class="cours-foot p-3">
+										<a href="#">
+											<h4>دورات المناهج الدراسية<i class="far fa-star float-start"></i></h4>
+										</a>
+										<p class="my-2">هناك حقيقة مثبتة منذ زمن طويل</p>
+										<ul class="d-flex justify-content-between">
+											<li><a href="#" class="btn btn-1"> أحجز الان</a></li>
+											<li><span class="price">980 sar</span></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- start jiin as -->
+			<section class="join">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="heading text-center mb-lg-5">
+								<h2>ابدأ معنا</h2>
+								<p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-lg-4 col-md-6">
+							<div class="join-card">
+								<img src="/assets/images/presentation.png" alt="" width="80" />
+
+								<h3>انضم كمعلم</h3>
+								<p>أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+								<a href="signAsTeacher.html" class="btn btn-1 float-end"
+									>انضم الان
+									<i class="fa-solid fa-chevron-left"></i>
+								</a>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="join-card">
+								<img src="/assets/images/profits.png" alt="" width="80" />
+								<h3>انضم كمسوق</h3>
+								<p>أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+								<a href="signAsMarketer.html" class="btn btn-1 float-end"
+									>انضم الان
+									<i class="fa-solid fa-chevron-left"></i>
+								</a>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- start feat section -->
+			<section class="featuers">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="heading text-center mb-lg-5">
+								<h2>مميزاتنا</h2>
+								<p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="feat d-flex mb-4">
+								<img src="assets/images/cc3.png" alt="" />
+								<div class="">
+									<h4>ميزة</h4>
+									<p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+								</div>
+							</div>
+							<div class="feat d-flex mb-4">
+								<img src="assets/images/3.svg" alt="" />
+								<div class="">
+									<h4>ميزة</h4>
+									<p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="feat d-flex mb-4">
+								<img src="assets/images/cc1.png" alt="" />
+								<div class="">
+									<h4>ميزة</h4>
+									<p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+								</div>
+							</div>
+							<div class="feat d-flex mb-4">
+								<img src="assets/images/cc2.png" alt="" />
+								<div class="">
+									<h4>ميزة</h4>
+									<p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="feat d-flex mb-4">
+								<img src="assets/images/6.svg" alt="" />
+								<div class="">
+									<h4>ميزة</h4>
+									<p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+								</div>
+							</div>
+							<div class="feat d-flex mb-4">
+								<img src="assets/images/cc4.png" alt="" />
+								<div class="">
+									<h4>ميزة</h4>
+									<p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- start video section -->
+			<section class="video">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<video id="player" playsinline controls data-poster="assets/images/poster.jpg">
+								<source src="https://mdbcdn.b-cdn.net/img/video/Agua-natural.mp4" type="video/mp4" />
+							</video>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- start download section -->
+			<section class="download">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="down-info mt-lg-5 pt-lg-5">
+								<h2>حمل تطبيقنا الان !</h2>
+								<p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+
+								<ul class="down-list d-flex">
+									<li>
+										<a href="#"><img src="assets/images/badge-play.png" alt="" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="assets/images/badge-store.png" alt="" /></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="down-box">
+								<img src="assets/images/download-2.png" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- start footer -->
+		<footer class="">
+			<div class="container">
+				<div class="row mb-3">
+					<div class="col-lg-3">
+						<div class="foot">
+							<a href="#">
+								<img src="assets/images/Untitled.png" alt="" class="foot-logo" />
+								<h5>مركز الخطوة الأفضل</h5>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4">
+						<div class="foot">
+							<ul class="contact-list">
+								<li><a href="#"> من نحن</a></li>
+								<li><a href="#"> تواصل معنا</a></li>
+								<ul class="scoial-icon">
+									<li>
+										<a href="http://" target="_blank" rel="noopener noreferrer">
+											<img src="assets/images/instagram.png" alt="instagram" />
+										</a>
+									</li>
+									<li>
+										<a href="http://" target="_blank" rel="noopener noreferrer">
+											<img src="assets/images/tiktok.png" alt="tiktok" />
+										</a>
+									</li>
+									<li>
+										<a href="http://" target="_blank" rel="noopener noreferrer">
+											<img src="assets/images/snapchat.png" alt="snapchat" />
+										</a>
+									</li>
+								</ul>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4">
+						<div class="foot">
+							<ul class="contact-list">
+								<li><a href="#">الشروط والاحكام </a></li>
+								<li><a href="#">سياسة الخصوصية </a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4">
+						<div class="foot">
+							<ul class="contact-list">
+								<li><a href="#"> المواقع الصديقة </a></li>
+								<li><a href="#"> الاسئلة المكررة</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="copyright text-center">
+						<p>Copyright © 2022 BSC .جميع الحقوق محفوظه</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<a class="floating-btn" href="#">
+			<img src="assets/images/WhatsApp_icon.png" alt="" />
+		</a>
+
+		<!-- start scripts included -->
+		<!-- Plyr -->
+		<script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+		<!-- bootstrap included -->
+		<script src="assets/js/bootstrap.bundle.js"></script>
+		<!-- jquery included -->
+		<script src="assets/js/jquery.js"></script>
+		<!-- font awsome included -->
+		<script src="assets/js/all.min.js"></script>
+		<!-- MY code included -->
+		<script src="assets/js/code.js"></script>
+		<script src="assets/js/slick.min.js"></script>
+		<script src="path/to/plyr.js"></script>
+		<script>
+			const player = new Plyr('#player');
+		</script>
+		<script>
+			$('.responsive').slick({
+				dots: true,
+				arrows: false,
+				infinite: true,
+				speed: 300,
+				slidesToShow: 4,
+				slidesToScroll: 4,
+				rtl: true,
+				responsive: [
+					{
+						breakpoint: 1024,
+						settings: {
+							slidesToShow: 2,
+							slidesToScroll: 2,
+							infinite: true,
+							dots: true,
+						},
+					},
+					{
+						breakpoint: 600,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1,
+						},
+					},
+					{
+						breakpoint: 480,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1,
+						},
+					},
+					// You can unslick at a given breakpoint now by adding:
+					// settings: "unslick"
+					// instead of a settings object
+				],
+			});
+		</script>
+	</body>
+	<!-- end of body -->
+</html>
+<!-- end of code -->
